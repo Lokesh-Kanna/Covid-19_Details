@@ -12,12 +12,12 @@ async function foo() {
         let covidDate = covidCountryData[i].Date;
         let covidRecovered = covidCountryData[i].Recovered;
         let covidDeath = covidCountryData[i].Deaths;
-        // console.log(`Country: ${userInput}
-        //              Country Code: ${covidCountryCode}
-        //              Date: ${covidDate}
-        //              Confirmed Cases: ${covidConfirmed}
-        //              Recovered Cases: ${covidRecovered}
-        //              Deaths: ${covidDeath}`);
+        console.log(`Country: ${userInput}
+                     Country Code: ${covidCountryCode}
+                     Date: ${covidDate}
+                     Confirmed Cases: ${covidConfirmed}
+                     Recovered Cases: ${covidRecovered}
+                     Deaths: ${covidDeath}`);
         let div = document.createElement('div');
         div.innerHTML = `Country: ${userInput} <br>
         Country Code: ${covidCountryCode} <br>
